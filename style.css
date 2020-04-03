@@ -1,0 +1,33 @@
+body{
+    background-image: url('./Football-Pitch-image.jpg');
+
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    padding: 16px; 
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    image-orientation: center;
+    width: 16%;
+    border-radius: 15px 15px 15px 15px;
+}
+
+div{
+    text-align: center;
+}
