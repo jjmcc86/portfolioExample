@@ -7,27 +7,87 @@ body{
 h1{
     color: white;
     text-align: center;
-    padding: 50px;
+    padding: 30px;
     font-family: 'Courier New', Courier, monospace;
+    line-height: 20%;
 }
 
 p{
     color: white;
     text-align: center;
-    padding: 50px;
-    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    font-family: 'Arial', Courier, monospace;
 }
 
+
+#profilePic{
+    padding: 6px; 
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    image-orientation: center;
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+#websiteImages{
+    padding: 6px; 
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    image-orientation: center;
+    width: 100%;
+    border-radius: 10%;
+}
 img{
+    padding: 6px; 
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    image-orientation: center;
+    width: 16%;
+    border-radius: 50%;
+}
+
+.websiteImages{
+
     padding: 16px; 
     margin-bottom: 10px;
     font-size: 20px;
     text-align: center;
     image-orientation: center;
     width: 16%;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 20%;
+
+}
+.readMore{
+    padding:16px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+    word-wrap: normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color:purple;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0,3);
+    transition: 0.75s;
+    border-radius: 7px;
+}
+/*Something for hovering over the button*/
+.readMore:hover {
+    color:white;
+    background-color: hotpink;
+    cursor: pointer;
 }
 
-div{
+.readMore:active{
+    background-color: lightgreen;
+    transition: 0.5s;
+}
+
+#lockdown{
     text-align: center;
 }
